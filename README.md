@@ -116,7 +116,7 @@ Used window functions with PARTITION BY to rank products within each division, t
 
 ## What Made This Challenging
 
-1. **Fiscal Year Complexity:** I had to build custom date logic since AtliQ uses September-August fiscal years
+1. **Fiscal Year Complexity:** I had to build a new month table to properly track month, month numbers and quarterly performance
 2. **Exact Output Requirements:** Each query needed specific column names and formats
 3. **Business Context:** Had to understand what each stakeholder actually needed the data for
 4. **Data Quality:** Had to handle edge cases and ensure accurate calculations
